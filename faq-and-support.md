@@ -22,8 +22,8 @@ A number of plugins have already been tagged as compatible with ClassicPress and
 
 Bugs can be reported on the [support forums](https://forums.classicpress.net/c/support) or, if you know how to write a bug report, via GitHub. If logging via GitHub, please make sure to follow the template instructions:
 
-* For issues with ClassicPress itself, [open an issue here](https://github.com/ClassicPress/ClassicPress/issues/new).
-* For issues with the Migration plugin, <a href="[open an issue here](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/issues/new).
+- For issues with ClassicPress itself, [open an issue here](https://github.com/ClassicPress/ClassicPress/issues/new).
+- For issues with the Migration plugin, [open an issue here](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/issues/new).
 
 ## I need help with something else, what should I do?
 
@@ -32,4 +32,3 @@ If you have an issue with ClassicPress that you'd like some help resolving, go t
 If you just have a question or want to chat with us about something, you can [join our Slack group](https://www.classicpress.net/join-slack/).
 
 Please remember that like all of ClassicPress, our support is a volunteer effort by the community. If you are able to help answer support questions in the forum, that is also more than welcome!
-

@@ -12,11 +12,11 @@ Currently, auditing the overall security profile of a ClassicPress site is impra
 
 There is just one new function: `add_security_page()`. It works similarly to the other `add_xxx_page()` helpers, with two important changes:
 
-* there is no `$capability` argument — it is always `manage_options`
-* the `$menu_slug` must match an active plugin or mu-plugin slug.
-* The function also adds a link from your plugin’s action row in the plugins list directly to your security page.
+- there is no `$capability` argument — it is always `manage_options`
+- the `$menu_slug` must match an active plugin or mu-plugin slug.
+- The function also adds a link from your plugin’s action row in the plugins list directly to your security page.
 
-```
+```php
 /**
  * Add submenu page to the Security main menu.
  *
@@ -45,7 +45,7 @@ function add_security_page(
 
 You will need to change the logic in your plugin to check for `add_security_page()`. For example:
 
-```
+```php
 if ( function_exists( '\add_security_page' ) ) {
 	add_security_page(
 		'My Prodigious Plugin',
@@ -78,7 +78,7 @@ If your plugin has nothing but security-related settings it may be more useful t
 
 Many plugins add links to the plugin’s action row in the plugins list. You can declutter that area for your plugin by using a standard dashicon; for example, a typical "Settings" link:
 
-```
+```php
 array_unshift(
     $links,
     sprintf(

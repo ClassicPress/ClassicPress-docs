@@ -57,6 +57,7 @@ If you would like to migrate from a different version of WordPress **at your own
 With each new WordPress release, it's very helpful for us to have multiple reports of whether the migration plugin works with the new version. You can use the filter above to test the migration process, and you can tell us about the results of your testing [on GitHub](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/issues) or [on the support subforum for the migration plugin](https://forums.classicpress.net/c/support/migration-plugin).
 
 ### Migration steps
+
 To migrate a current WordPress site to ClassicPress, follow these steps:
 
 1. **PLEASE NOTE:** Please check that any known conflicting plugins are **deactivated** (see list below).
@@ -85,7 +86,6 @@ Again, **DO NOT DO THIS ON A PRODUCTION ENVIRONMENT**.
 5. Upload what's left over to your server, replacing the existing files (using either SSH or an application like [CyberDuck](https://cyberduck.io/download/) or [FileZilla](https://filezilla-project.org/)).
 6. Visit your new ClassicPress site.
 
-
 ## Plugin conflicts
 
 The following plugins have been reported to conflict with the ClassicPress migration plugin or with ClassicPress itself:
@@ -99,4 +99,3 @@ The following plugins have been reported to conflict with the ClassicPress migra
 ## Updating ClassicPress
 
 For more information about updating ClassicPress to the latest version, see the [Updating ClassicPress page](http://docs.classicpress.net/updating-classicpress/).
-
