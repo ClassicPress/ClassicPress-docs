@@ -4,11 +4,6 @@
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/browser-support.md"
     },
-    "developing-classicpress": {
-        "slug": "developing-classicpress",
-        "parent": null,
-        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/developing-classicpress.md"
-    },
     "faq-support": {
         "slug": "faq-support",
         "parent": null,
@@ -24,15 +19,20 @@
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/press-and-branding.md"
     },
-    "security-page": {
-        "slug": "security-page",
-        "parent": null,
-        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/security-page.md"
-    },
     "updating-classicpress": {
         "slug": "updating-classicpress",
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/updating-classicpress.md"
+    },
+    "developing-classicpress": {
+        "slug": "developing-classicpress",
+        "parent": null,
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/developing-classicpress/index.md"
+    },
+    "developing-classicpress/security-page": {
+        "slug": "security-page",
+        "parent": "developing-classicpress",
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/developing-classicpress/security-page.md"
     },
     "installing-classicpress": {
         "slug": "installing-classicpress",
