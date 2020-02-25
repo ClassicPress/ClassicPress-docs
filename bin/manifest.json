@@ -9,10 +9,10 @@
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/developing-classicpress.md"
     },
-    "faq-and-support": {
-        "slug": "faq-and-support",
+    "faq-support": {
+        "slug": "faq-support",
         "parent": null,
-        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/faq-and-support.md"
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/faq-support.md"
     },
     "home": {
         "slug": "home",
