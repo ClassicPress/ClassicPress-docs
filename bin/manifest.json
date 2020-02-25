@@ -14,8 +14,8 @@
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/faq-and-support.md"
     },
-    "index.md": {
-        "slug": "ClassicPress-docs",
+    "home": {
+        "slug": "home",
         "parent": null,
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/index.md"
     },
