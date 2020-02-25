@@ -10,23 +10,27 @@ $paths = array(
 	$root . '/*/*.md',
 );
 $excludes = array(
-	$root . '/README.md',
+	'README.md',
 );
 foreach ( $paths as $path ) {
 	foreach ( glob( $path ) as $file ) {
+		$file = str_replace( $root . '/', '', $file );
+
 		if ( in_array( $file, $excludes ) ) {
 			continue;
 		}
 
 		$slug = basename( $file, '.md' );
-		$filename_base = str_replace( array( $root . '/', '.md' ), '', $file );
-		if ( $slug === 'index' ) {
+		if ( $file === 'index.md' ) {
+			// Main index file 'index.md'
+			$slug = $key = 'home';
+		} else if ( $slug === 'index' ) {
 			// e.g. 'installing-classicpress/index.md'
 			$slug = basename( dirname( $file ) );
-			$key = str_replace( array( $root . '/', '/index.md' ), '', $file );
+			$key = str_replace( '/index.md', '', $file );
 		} else {
 			// e.g. 'browser-support.md'
-			$key = $filename_base;
+			$key = str_replace( '.md', '', $file );
 		}
 		$parent = null;
 		if ( stripos( $key, '/' ) ) {
@@ -38,9 +42,9 @@ foreach ( $paths as $path ) {
 			'slug'            => $slug,
 			'parent'          => $parent,
 			'markdown_source' => sprintf(
-				'https://github.com/%s/blob/master/%s.md',
+				'https://github.com/%s/blob/master/%s',
 				$repo,
-				$filename_base
+				$file
 			),
 		);
 	}
