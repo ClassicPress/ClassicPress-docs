@@ -14,9 +14,9 @@ We need help testing new installs of the [latest version of ClassicPress](https:
 
 We've also released the [migration plugin](https://github.com/ClassicPress/ClassicPress-Migration-Plugin) that will convert a WordPress installation into a ClassicPress installation, and we need help testing that too.
 
-To install ClassicPress using either of these methods, see the [Installing ClassicPress](http://docs.classicpress.net/installing-classicpress/) page.
+To install ClassicPress using either of these methods, see the [Installing ClassicPress](https://docs.classicpress.net/installing-classicpress/) page.
 
-For a suggested list of testing scenarios, see the [Testing Scenarios](http://docs.classicpress.net/testing-classicpress/scenarios/) page.
+For a suggested list of testing scenarios, see the [Testing Scenarios](https://docs.classicpress.net/testing-classicpress/scenarios/) page.
 
 To find out more, [join our Slack group](https://www.classicpress.net/join-slack/) and introduce yourself in the [#testing](https://classicpress.slack.com/messages/testing) Slack channel, or make a post on our [support forum](https://forums.classicpress.net/c/general-discussion).
 

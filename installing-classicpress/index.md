@@ -5,7 +5,7 @@ In this guide we'll cover how to set up two main types of ClassicPress sites: [i
 
 ## How to do a fresh install of ClassicPress
 
-Installing ClassicPress is the first step of your ClassicPress journey. The process in itself will typically take you about five minutes if you are experienced with installing similar web CMS's. However, should this be your first time installing a CMS on your server, don't worry. We'll take you through each of the steps in detail — and if there's any problem along the way, don't hesitate to [call on the community](http://docs.classicpress.net/faq-support/). Before you start, you'll need a few things in order to make the installation process as smooth as possible. We recommend collecting this information ahead of time.
+Installing ClassicPress is the first step of your ClassicPress journey. The process in itself will typically take you about five minutes if you are experienced with installing similar web CMS's. However, should this be your first time installing a CMS on your server, don't worry. We'll take you through each of the steps in detail — and if there's any problem along the way, don't hesitate to [call on the community](https://docs.classicpress.net/faq-support/). Before you start, you'll need a few things in order to make the installation process as smooth as possible. We recommend collecting this information ahead of time.
 
 ### Server or shared hosting environment
 
@@ -36,7 +36,7 @@ Once you have all of the above requirements met, you should be able to proceed w
 
 ### Installing with Composer
 
-You can use `composer` to install recent ClassicPress releases as well as nightly builds. This is a good option if you want to automate more steps of the installation process. For more details, visit the [Installing with Composer](http://docs.classicpress.net/installing-classicpress/installing-with-composer/) page.
+You can use `composer` to install recent ClassicPress releases as well as nightly builds. This is a good option if you want to automate more steps of the installation process. For more details, visit the [Installing with Composer](https://docs.classicpress.net/installing-classicpress/installing-with-composer/) page.
 
 ## How to migrate from WordPress to ClassicPress
 
@@ -98,4 +98,4 @@ The following plugins have been reported to conflict with the ClassicPress migra
 
 ## Updating ClassicPress
 
-For more information about updating ClassicPress to the latest version, see the [Updating ClassicPress page](http://docs.classicpress.net/updating-classicpress/).
+For more information about updating ClassicPress to the latest version, see the [Updating ClassicPress page](https://docs.classicpress.net/updating-classicpress/).

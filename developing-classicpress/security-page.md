@@ -94,7 +94,7 @@ array_unshift(
 
 Combined with registering a security page using `add_security_page`, this provides easy navigation for users with a clean, professional look that doesn't take up too much space:
 
-[http://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png](http://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png)
+[https://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png](https://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png)
 
 ## Contacting Plugin Authors
 
