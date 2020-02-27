@@ -38,14 +38,23 @@ foreach ( $paths as $path ) {
 			array_pop( $bits );
 			$parent = implode( '/', $bits );
 		}
-		$manifest[ $key ] = array(
-			'slug'            => $slug,
-			'parent'          => $parent,
-			'markdown_source' => sprintf(
+		if ( getenv( 'MANIFEST_BASE_URL' ) ) {
+			$source_url = sprintf(
+				'%s/%s',
+				rtrim( getenv( 'MANIFEST_BASE_URL' ), '/' ),
+				$file
+			);
+		} else {
+			$source_url = sprintf(
 				'https://github.com/%s/blob/master/%s',
 				$repo,
 				$file
-			),
+			);
+		}
+		$manifest[ $key ] = array(
+			'slug'            => $slug,
+			'parent'          => $parent,
+			'markdown_source' => $source_url,
 		);
 	}
 }
