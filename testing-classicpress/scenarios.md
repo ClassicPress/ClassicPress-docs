@@ -1,9 +1,9 @@
-# Testing Classicpress Scenarios
+# Testing ClassicPress Scenarios
 
 **Welcome to the testing program.** We currently have two main ways to start testing ClassicPress:
 
-- Installing ClassicPress on a current WordPress site
-- Installing ClassicPress on a new site.
+1. Installing ClassicPress on a current WordPress site
+2. Installing ClassicPress on a new site.
 
 See the [Installing ClassicPress](https://docs.classicpress.net/installing-classicpress/) page for detailed instructions.
 

@@ -3,7 +3,7 @@
 In this guide we'll cover how to set up two main types of ClassicPress sites: [installing ClassicPress on a new site](#fresh-install), and [migrating an existing WordPress site to ClassicPress](#migrate-classicpress).
 **NOTE:** Some hosts automatically update WordPress sites to the latest version, and currently it is possible for ClassicPress sites to trigger this update process. Please contact your hosting provider's support team to make sure your site will not be automatically updated to a later WordPress version. See our [Updating ClassicPress page](https://docs.classicpress.net/updating-classicpress/#automatic-updates-from-web-hosts) for more information.
 
-## How to do a fresh install of ClassicPress
+<h2 id="fresh-install">How to do a fresh install of ClassicPress</h2>
 
 Installing ClassicPress is the first step of your ClassicPress journey. The process in itself will typically take you about five minutes if you are experienced with installing similar web CMS's. However, should this be your first time installing a CMS on your server, don't worry. We'll take you through each of the steps in detail — and if there's any problem along the way, don't hesitate to [call on the community](https://docs.classicpress.net/faq-support/). Before you start, you'll need a few things in order to make the installation process as smooth as possible. We recommend collecting this information ahead of time.
 
@@ -38,7 +38,7 @@ Once you have all of the above requirements met, you should be able to proceed w
 
 You can use `composer` to install recent ClassicPress releases as well as nightly builds. This is a good option if you want to automate more steps of the installation process. For more details, visit the [Installing with Composer](https://docs.classicpress.net/installing-classicpress/installing-with-composer/) page.
 
-## How to migrate from WordPress to ClassicPress
+<h2 id="migrate-classicpress">How to migrate from WordPress to ClassicPress</h2>
 
 You can migrate sites from WordPress to ClassicPress using our [ClassicPress migration plugin](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/releases/latest).
 
@@ -50,7 +50,7 @@ This plugin currently supports migrating from WordPress versions starting at `4.
 
 We update the plugin as quickly as possible when a new version of WordPress comes out, but we do need to test each new version for compatibility with the plugin first.
 
-If you would like to migrate from a different version of WordPress **at your own risk**, you can use the following code in your current theme's `functions.php` file or an `mu-plugin` to enable the migration (more details available [on the plugin's readme page](https://github.com/ClassicPress/ClassicPress-Migration-Plugin#how-can-i-use-this-plugin-with-an-unsupported-version-of-wordpress)):
+If you would like to migrate from a different version of WordPress **at your own risk**, you can use the following code in your current theme's `functions.php` file or a `mu-plugin` to enable the migration (more details available [on the plugin's readme page](https://github.com/ClassicPress/ClassicPress-Migration-Plugin#how-can-i-use-this-plugin-with-an-unsupported-version-of-wordpress)):
 
 `add_filter( 'classicpress_ignore_wp_version', '__return_true' );`
 
@@ -58,18 +58,19 @@ With each new WordPress release, it's very helpful for us to have multiple repor
 
 ### Migration steps
 
-To migrate a current WordPress site to ClassicPress, follow these steps:
+To migrate a current WordPress site to ClassicPress, follow these steps.
 
-1. **PLEASE NOTE:** Please check that any known conflicting plugins are **deactivated** (see list below).
-2.  Backup the current site — you can do a manual backup in your hosting panel and export the database or you can use some of the recognized backup plugins like [BackUpWordPress](https://wordpress.org/plugins/backupwordpress/), [iThemes BackupBuddy](https://ithemes.com/purchase/backupbuddy/), or [UpdraftPlus](https://updraftplus.com/) to do this.
-3. Download the latest version of the ClassicPress migration plugin from [the plugin's GitHub releases page](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/releases/latest).
-4. Upload the plugin using the WordPress plugins section of your site.
-5. Activate the ClassicPress migration plugin.
-6. Go to the settings of the ClassicPress migration plugin at Tools -&gt; Switch to ClassicPress.
-7. To proceed with the switch it is necessary that all pre-flight checks succeed, with a green check mark.
-8. Press the **Switch this site to ClassicPress now!** button.
-9. The migration process may take a few minutes depending on your hosting provider, so go grab some water or a beverage of your choice :)
-10. When the process is finished, you should see the ClassicPress About screen. At this point it is safe to delete the "Switch to ClassicPress" plugin.
+**PLEASE NOTE:** Please check that any known conflicting plugins are **deactivated** (see list below).
+
+1. Back up the current site — you can do a manual backup in your hosting panel and export the database or you can use some of the recognized backup plugins like [BackUpWordPress](https://wordpress.org/plugins/backupwordpress/), [iThemes BackupBuddy](https://ithemes.com/purchase/backupbuddy/), or [UpdraftPlus](https://updraftplus.com/) to do this.
+2. Download the latest version of the ClassicPress migration plugin from [the plugin's GitHub releases page](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/releases/latest).
+3. Upload the plugin using the WordPress plugins section of your site.
+4. Activate the ClassicPress migration plugin.
+5. Go to the settings of the ClassicPress migration plugin at Tools -&gt; Switch to ClassicPress.
+6. To proceed with the switch it is necessary that all pre-flight checks succeed, with a green check mark.
+7. Press the **Switch this site to ClassicPress now!** button.
+8. The migration process may take a few minutes depending on your hosting provider, so go grab some water or a beverage of your choice :)
+9. When the process is finished, you should see the ClassicPress About screen. At this point it is safe to delete the "Switch to ClassicPress" plugin.
 
 If you have any problems with the migration process, please make a new thread on our [support forum](https://forums.classicpress.net/c/support/migration-plugin).
 
@@ -79,12 +80,13 @@ In the future, the same migration plugin will allow you to restore your site bac
 
 Again, **DO NOT DO THIS ON A PRODUCTION ENVIRONMENT**.
 
-1. **Back up your site files and database**. This is especially important when you are migrating files by hand.
-2. Download the latest ClassicPress zip file from our [GitHub releases page](https://github.com/ClassicPress/ClassicPress-release/releases).
-3. Unzip the file on your local computer.
-4. On your local computer, remove the `wp-config-sample.php` file and remove the entire `wp-content` folder.
-5. Upload what's left over to your server, replacing the existing files (using either SSH or an application like [CyberDuck](https://cyberduck.io/download/) or [FileZilla](https://filezilla-project.org/)).
-6. Visit your new ClassicPress site.
+Before doing anything else, **back up your site files and database**. This is especially important when you are migrating files by hand.
+
+1. Download the latest ClassicPress zip file from our [GitHub releases page](https://github.com/ClassicPress/ClassicPress-release/releases).
+2. Unzip the file on your local computer.
+3. On your local computer, remove the `wp-config-sample.php` file and remove the entire `wp-content` folder.
+4. Upload what's left over to your server, replacing the existing files (using either SSH or an application like [CyberDuck](https://cyberduck.io/download/) or [FileZilla](https://filezilla-project.org/)).
+5. Visit your new ClassicPress site.
 
 ## Plugin conflicts
 

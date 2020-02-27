@@ -26,7 +26,7 @@ There is just one new function: `add_security_page()`. It works similarly to the
  * @param string   $page_title The text to be displayed in the title tags of
                                the page when the menu is selected.
  * @param string   $menu_title The text to be used for the menu.
- * @param string   $menu_slug  The slug name to refer to this menu by; must 
+ * @param string   $menu_slug  The slug name to refer to this menu by; must
                                match an active plugin or mu-plugin slug.
  * @param callable $function   The function to be called to output the content
                                for this page.
@@ -60,15 +60,17 @@ if ( function_exists( '\add_security_page' ) ) {
 
 You will also need to change the logic on your settings pages, but that is outside the scope of this guide. However, you should remember that the idea is to **move** security-related settings, **not** to *duplicate* them.
 
-### $menu_slug
+### $menu\_slug
 
 >The slug name to refer to this menu by; must match an active plugin or mu-plugin slug.
 
 This works differently from the other helper functions and is the most common "gotcha". The simplest way to ensure this works as intended is to use something like this in the plugin's main file:
 
-`$menu_slug = dirname(plugin_basename(__FILE__));`
+```php
+$menu_slug = dirname( plugin_basename( __FILE__ ) );
+```
 
-Ensure `$menu_slug` is in scope when you come to use it.
+Ensure `$menu_slug` is in scope when you use it.
 
 ## Security Plugins
 
@@ -94,7 +96,7 @@ array_unshift(
 
 Combined with registering a security page using `add_security_page`, this provides easy navigation for users with a clean, professional look that doesn't take up too much space:
 
-[https://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png](https://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png)
+<img class="alignnone wp-image-413 size-full" src="https://docs.classicpress.net/wp-content/uploads/sites/4/2019/09/wp-fail2ban-screenshot.png" alt="" width="848" height="79" />
 
 ## Contacting Plugin Authors
 

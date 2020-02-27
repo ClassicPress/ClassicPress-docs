@@ -1,6 +1,6 @@
-# Testing Classicpress
+# Testing ClassicPress
 
-ClassicPress is focused on quality.
+**ClassicPress is focused on quality.**
 
 Our Quality Assurance (QA) team focuses on testing and software quality, as well as making sure any bugs get in front of the right people so they can be fixed.
 
