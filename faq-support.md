@@ -6,7 +6,9 @@ Details of the changes in ClassicPress v1 are available in on our [forums](https
 
 ### Will my current plugins and themes work in ClassicPress?
 
-All current plugins and themes which work in WordPress 4.9.x, will work in ClassicPress v1. If you're experiencing something different, that's probably a bug with ClassicPress, and we'd appreciate you reporting it in the [support forums](https://forums.classicpress.net/c/support), [Slack](https://www.classicpress.net/join-slack/), or [GitHub](https://github.com/ClassicPress/ClassicPress/issues).
+All current plugins and themes which work in WordPress 4.9.x, will work in ClassicPress v1. If you're experiencing something different, that's possibly a bug with ClassicPress, and we'd appreciate you reporting it in the [support forums](https://forums.classicpress.net/c/support), [Slack](https://www.classicpress.net/join-slack/), or [GitHub](https://github.com/ClassicPress/ClassicPress/issues).
+
+There have also been a few occasions where a plugin update has broken compatibility with both WordPress 4.9.x and ClassicPress. Whatever the case may be, we recommend contacting the plugin developers and asking them to make their plugin compatible with WordPress 4.9.x (and therefore ClassicPress).
 
 ### I’m a developer, will I need to learn any new language or framework to develop in ClassicPress?
 
