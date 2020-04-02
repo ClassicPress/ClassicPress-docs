@@ -11,7 +11,7 @@ Installing ClassicPress is the first step of your ClassicPress journey. The proc
 
 This is a place to store your site's files and content so that the site is visible to the world. The hosting environment usually comes with a domain name.
 
-If you don't have a domain name or a web host yet, we recommend taking a look at our [hosting subforum](https://forums.classicpress.net/c/general-discussion/hosting-forum). This is a place for community discussion rather than official recommendations, but here you can find lots of information about which hosts work well with ClassicPress.
+If you don't have a domain name or a web host yet, we recommend taking a look at our [hosting subforum](https://forums.classicpress.net/c/general-discussion/hosting-forum) or using our [1-Click Install Option for Digital Ocean](https://forums.classicpress.net/t/new-digitalocean-openlitespeed-classicpress-1-click-application/2253). This is a place for community discussion rather than official recommendations, but here you can find lots of information about which hosts work well with ClassicPress.
 
 You can also install ClassicPress on your local computer. A site made this way will not be accessible to the public, but it's great for trying out ClassicPress and its features. In order to do this, you'll need to install a **web server program**. [DesktopServer by ServerPress](https://serverpress.com/) or [Local by Flywheel](https://local.getflywheel.com/) are good options if you haven't done this before.
 
