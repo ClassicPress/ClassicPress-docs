@@ -1,5 +1,6 @@
 # Documentation Categories
 
+- <span style="font-size: 150%">[Using ClassicPress](https://docs.classicpress.net/using-classicpress/)</span>
 - <span style="font-size: 150%">[Installing ClassicPress](https://docs.classicpress.net/installing-classicpress/)</span>
 - <span style="font-size: 150%">[Testing ClassicPress](https://docs.classicpress.net/testing-classicpress/)</span>
 - <span style="font-size: 150%">[Developing ClassicPress](https://docs.classicpress.net/developing-classicpress/)</span>

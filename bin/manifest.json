@@ -48,5 +48,20 @@
         "slug": "scenarios",
         "parent": "testing-classicpress",
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/testing-classicpress/scenarios.md"
+    },
+    "using-classicpress/custom-login-image": {
+        "slug": "custom-login-image",
+        "parent": "using-classicpress",
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/using-classicpress/custom-login-image.md"
+    },
+    "using-classicpress": {
+        "slug": "using-classicpress",
+        "parent": null,
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/using-classicpress/index.md"
+    },
+    "using-classicpress/privacy-policy": {
+        "slug": "privacy-policy",
+        "parent": "using-classicpress",
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/using-classicpress/privacy-policy.md"
     }
 }
