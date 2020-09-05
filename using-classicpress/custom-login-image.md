@@ -14,7 +14,7 @@ If you want to use a custom image there are two possible ways for it to be displ
 
 (image of logo option goes here)
 
-"Use my custom logo as a banner" can be used for custom images that are wider or landscape-style. The image will be displayed at a maximum width of 320px and a maximum height of 240px.
+"Use my custom logo as a banner" can be used for custom images that are wider or landscape-style. The image will be displayed at a maximum width of 320px and a maximum height of 240px. We recommend a ratio close to 2x1 or 3x1 for banners.
 
 (image of banner option goes here)
 
