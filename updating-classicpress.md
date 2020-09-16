@@ -36,4 +36,4 @@ You can modify the behavior of automatic upgrades setting using the [same method
 
 Automatic updates help us ensure that your sites are safe **after** we release new security fixes and the details become available to the public. To put it another way, you want the window between _public release of a security issue_ and _the fix being live on your site_ to be **as short as possible**.
 
-ClassicPress automatic upgrades are **guaranteed** not to contain breaking changes by our versioning policy, and ClassicPress will **never** upgrade between major versions that may contain breaking changes (e.g. `1.1.0` to `2.0.0`).
+ClassicPress automatic upgrades are **guaranteed** not to contain breaking changes by our [versioning policy](https://semver.org/), and ClassicPress will **never** automatically upgrade between versions that may contain breaking changes (e.g. `1.1.0` to `2.0.0`).
