@@ -10,9 +10,27 @@ All current plugins and themes which work in WordPress 4.9.x, will work in Class
 
 There have also been a few occasions where a plugin update has broken compatibility with both WordPress 4.9.x and ClassicPress. Whatever the case may be, we recommend contacting the plugin developers and asking them to make their plugin compatible with WordPress 4.9.x (and therefore ClassicPress).
 
-### I’m a developer, will I need to learn any new language or framework to develop in ClassicPress?
+### I’m a developer. Will I need to learn any new language or framework to develop in ClassicPress?
 
-Not unless you want to! We have some exciting features planned for version 2 and beyond, but they will all be optional and fully backwards-compatible.
+If you’re at all familiar with developing plugins and/or themes in WordPress, then the simple answer is no. There is very little difference between developing for ClassicPress and developing for WordPress. The main requirement is that developers have a solid understanding of PHP, CSS, HTML and, ideally, JavaScript.
+
+We at ClassicPress will never introduce changes into the ClassicPress core just for the sake of it. If changes are made, there will be very good reasons behind them, usually because they have been requested by the community. That’s why, with ClassicPress, there is no need to learn about the inner workings of the Gutenberg block editor.
+
+### I’m a developer. What opportunities exist in ClassicPress to learn new skills?
+
+If you're not familiar with WordPress, then you'll find plenty of learning opportunities in ClassicPress.
+
+Obviously, an in-depth knowledge of PHP is a pre-requisite but aside from that, ClassicPress uses various [hooks](https://developer.wordpress.org/plugins/hooks/) that allow developers to change how ClassicPress works without editing core files. Getting to understand these is pretty important if you're planning on developing plugins or themes for ClassicPress.
+
+ClassicPress provides several other opportunities to learn new skills. For example, much of the work we do uses Git on GitHub and we've got some great tutorials written by our own community, like this one for instance:
+
+[Github Desktop – A Really, Really Simple Tutorial](https://www.classicpress.net/blog/github-desktop-a-really-really-simple-tutorial/)
+
+You also have the opportunity to contribute to the ClassicPress documentation (like the page you're reading now). For this, you will need a basic understanding of GitHub as well as knowledge of [Markdown](https://guides.github.com/features/mastering-markdown/).
+
+Other learning opportunities include: [PHP unit testing](https://phpunit.de/), [Composer](https://getcomposer.org/), [Sass](https://sass-lang.com/) and lots more.
+
+So, to sum up, you can learn as much or as little as you want.
 
 ### How can I indicate my plugin/theme is compatible with CP?
 
