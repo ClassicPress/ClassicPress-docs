@@ -1,5 +1,7 @@
 # FAQ and Support
 
+## End Users
+
 ### What is new/different in ClassicPress v1?
 
 Details of the changes in ClassicPress v1 are available in on our [forums](https://forums.classicpress.net/t/classicpress-1-0-0-aurora-release-notes/910).
@@ -10,7 +12,29 @@ All current plugins and themes which work in WordPress 4.9.x, will work in Class
 
 There have also been a few occasions where a plugin update has broken compatibility with both WordPress 4.9.x and ClassicPress. Whatever the case may be, we recommend contacting the plugin developers and asking them to make their plugin compatible with WordPress 4.9.x (and therefore ClassicPress).
 
-### I’m a developer, what do I need to know in order to develop for ClassicPress?
+### I think I found a bug – what do I do?
+
+Bugs can be reported on the [support forums](https://forums.classicpress.net/c/support) or, if you know how to write a bug report, via GitHub. If logging via GitHub, please make sure to follow the template instructions:
+
+- For issues with ClassicPress itself, [open an issue here](https://github.com/ClassicPress/ClassicPress/issues/new).
+- For issues with the Migration plugin, [open an issue here](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/issues/new).
+
+### I need help with something else, what should I do?
+
+If you have an issue with ClassicPress that you'd like some help resolving, go to our [support forum](https://forums.classicpress.net/c/support) and make a new topic. Be sure to search existing posts first to make sure your question hasn't already been answered.
+
+If you just have a question or want to chat with us about something, you can [join our Slack group](https://www.classicpress.net/join-slack/).
+
+Please remember that like all of ClassicPress, our support is a volunteer effort by the community. If you are able to help answer support questions in the forum, that is also more than welcome!
+
+
+## Developers
+
+### Will the plugins and themes I've created work with ClassicPress?
+
+If your plugin or theme works with WordPress 4.9, it will work with ClassicPress without changing a thing. However, there are one or two things you should be aware of and these are outlined in the following sections.
+
+### What do I need to know in order to develop for ClassicPress?
 
 First of all, [our roadmap](https://www.classicpress.net/roadmap/) does not include making any fundamental changes to the way WordPress functioned for many years, and the way ClassicPress functions now. This means that the best skill you can use or acquire as a ClassicPress developer is to "learn PHP deeply", and the rest of the technologies that have traditionally been used in WordPress development are still very relevant (SQL, HTML, the template system for themes, CSS, JavaScript, jQuery, etc.)
 
@@ -28,17 +52,3 @@ Please also be sure to set the `Requires at least` field in your plugin's main f
 
 Lastly, you should publish a thread in the [Plugin Release](https://forums.classicpress.net/c/plugins/plugin-release/70) category on our forums. In your first post, it would be helpful to tell us a bit about yourself such as your background as a developer and why you want to work with ClassicPress. Then tell us about your plugin or theme, how the ClassicPress community can go about getting support, and any other relevant details.
 
-### I think I found a bug – what do I do?
-
-Bugs can be reported on the [support forums](https://forums.classicpress.net/c/support) or, if you know how to write a bug report, via GitHub. If logging via GitHub, please make sure to follow the template instructions:
-
-- For issues with ClassicPress itself, [open an issue here](https://github.com/ClassicPress/ClassicPress/issues/new).
-- For issues with the Migration plugin, [open an issue here](https://github.com/ClassicPress/ClassicPress-Migration-Plugin/issues/new).
-
-### I need help with something else, what should I do?
-
-If you have an issue with ClassicPress that you'd like some help resolving, go to our [support forum](https://forums.classicpress.net/c/support) and make a new topic. Be sure to search existing posts first to make sure your question hasn't already been answered.
-
-If you just have a question or want to chat with us about something, you can [join our Slack group](https://www.classicpress.net/join-slack/).
-
-Please remember that like all of ClassicPress, our support is a volunteer effort by the community. If you are able to help answer support questions in the forum, that is also more than welcome!
