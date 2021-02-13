@@ -15,6 +15,22 @@ If you don't have a domain name or a web host yet, we recommend taking a look at
 
 You can also install ClassicPress on your local computer. A site made this way will not be accessible to the public, but it's great for trying out ClassicPress and its features. In order to do this, you'll need to install a **web server program**. [DesktopServer by ServerPress](https://serverpress.com/) or [Local by Flywheel](https://local.getflywheel.com/) are good options if you haven't done this before.
 
+### System Requirements
+
+The **recommended** requirements are:
+
+- PHP version 7.2 or higher
+- MySQL version 5.6+ or MariaDB version 10.1+
+
+The **minimum** (legacy) requirements to run ClassicPress are:
+
+- PHP version 5.6
+- MySQL version 5.0
+
+However, we **do not recommend** using these legacy versions as they are now end-of-life and unsupported.
+
+We also recommend [Apache](http://httpd.apache.org/), [NGINX](http://nginx.org/) or [OpenLiteSpeed](https://openlitespeed.org/) as the most robust web servers for running ClassicPress.
+
 ### Program to copy files to the server
 
 If you're installing ClassicPress on a hosting environment or another remote server, you'll need to use a program to copy files back and forth. We recommend getting an [SSH](https://en.wikipedia.org/wiki/Secure_Shell) account set up with your hosting provider and using this account to copy files via [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol). ([FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) is also an option, but we do not recommend it because it **does not use a secure, encrypted connection** to transfer files.) [FileZilla](https://filezilla-project.org/) is one program that can copy files to and from almost any server or shared hosting environment. [CyberDuck](https://cyberduck.io/download/) is another.
@@ -101,3 +117,19 @@ The following plugins have been reported to conflict with the ClassicPress migra
 ## Updating ClassicPress
 
 For more information about updating ClassicPress to the latest version, see the [Updating ClassicPress page](https://docs.classicpress.net/updating-classicpress/).
+
+---
+
+## Installing with 1-click web application installers
+
+ClassicPress is available to install via the Softaculous and Installatron 1-click applications. It is also possible to move existing sites to either Softaculous or Installatron. Follow these tutorials to find out more.
+
+### Softaculous
+
+- [Installing with Softaculous](https://docs.classicpress.net/installing-classicpress/installing-with-softaculous/)
+- [Moving an existing site to Softaculous](https://docs.classicpress.net/installing-classicpress/installing-with-softaculous/#moving-existing-sites-to-softaculous)
+
+### Installatron
+
+- [Installing with Installatron](https://docs.classicpress.net/installing-classicpress/installing-with-installatron/)
+- [Moving an existing site to Installatron](https://docs.classicpress.net/installing-classicpress/installing-with-installatron/#moving-existing-sites-to-installatron)
