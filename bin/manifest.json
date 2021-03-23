@@ -39,6 +39,16 @@
         "parent": "installing-classicpress",
         "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/installing-classicpress/installing-with-composer.md"
     },
+    "installing-classicpress/installing-with-installatron": {
+        "slug": "installing-with-installatron",
+        "parent": "installing-classicpress",
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/installing-classicpress/installing-with-installatron.md"
+    },
+    "installing-classicpress/installing-with-softaculous": {
+        "slug": "installing-with-softaculous",
+        "parent": "installing-classicpress",
+        "markdown_source": "https://github.com/ClassicPress/ClassicPress-docs/blob/master/installing-classicpress/installing-with-softaculous.md"
+    },
     "testing-classicpress": {
         "slug": "testing-classicpress",
         "parent": null,

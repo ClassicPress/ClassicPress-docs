@@ -17,17 +17,19 @@ You can also install ClassicPress on your local computer. A site made this way w
 
 ### System Requirements
 
-The **recommended** requirements are:
+#### The recommended requirements are:
 
-- PHP version 7.2 or higher
-- MySQL version 5.6+ or MariaDB version 10.1+
+- PHP versions `7.2`, `7.3` or `7.4`
+- MySQL versions `5.6` or `5.7` or MariaDB version `10.1+`
 
-The **minimum** (legacy) requirements to run ClassicPress are:
+ClassicPress *may* work on later versions of PHP and MySQL but these are not supported.
 
-- PHP version 5.6
-- MySQL version 5.0
+#### The minimum (legacy) requirements to run ClassicPress are:
 
-However, we **do not recommend** using these legacy versions as they are now end-of-life and unsupported.
+- PHP version `5.6`
+- MySQL version `5.0`
+
+However, we **do not recommend** using these legacy versions as they are now end-of-life and unsupported. 
 
 We also recommend [Apache](http://httpd.apache.org/), [NGINX](http://nginx.org/) or [OpenLiteSpeed](https://openlitespeed.org/) as the most robust web servers for running ClassicPress.
 
@@ -62,7 +64,7 @@ Migrating from WordPress to ClassicPress **does not** touch your site content (p
 
 ### Supported WordPress versions
 
-This plugin currently supports migrating from WordPress versions starting at `4.9.0`.
+This plugin currently supports migrating from WordPress versions starting at `4.9.0`. You can check the latest supported version of WordPress by going to [Get ClassicPress](https://www.classicpress.net/get-classicpress/#switch-to-classicpress).
 
 We update the plugin as quickly as possible when a new version of WordPress comes out, but we do need to test each new version for compatibility with the plugin first.
 

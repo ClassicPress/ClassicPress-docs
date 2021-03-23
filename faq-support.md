@@ -52,3 +52,28 @@ Please also be sure to set the `Requires at least` field in your plugin's main f
 
 Lastly, you should publish a thread in the [Plugin Release](https://forums.classicpress.net/c/plugins/plugin-release/70) category on our forums. In your first post, it would be helpful to tell us a bit about yourself such as your background as a developer and why you want to work with ClassicPress. Then tell us about your plugin or theme, how the ClassicPress community can go about getting support, and any other relevant details.
 
+### How can I detect ClassicPress in a plugin or theme?
+
+The recommended way to detect ClassicPress in a plugin or theme is by using code the following function:
+
+```
+function is_classicpress() {
+    if ( function_exists( 'classicpress_version' ) ) {
+        return true;
+    } else {
+        return false;
+    }
+}
+```
+
+This code provides an easy way of keeping your plugin or theme compatible with ClassicPress. Here's a simple example of its usage:
+
+```
+function my_blocks_function() {
+	if ( ! is_classicpress() ) {
+		if ( has_blocks() ) {
+			// Do something.
+		}
+	}
+}
+```
