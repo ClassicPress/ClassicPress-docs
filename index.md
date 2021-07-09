@@ -1,4 +1,4 @@
-# Documentation Categories
+# ClassicPress Documentation
 
 
 - <span style="font-size: 150%">[Installing ClassicPress](https://docs.classicpress.net/installing-classicpress/)</span>
