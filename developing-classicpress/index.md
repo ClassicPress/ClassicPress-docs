@@ -1,5 +1,6 @@
-# Developing ClassicPress
+# Developing With ClassicPress
 
-ClassicPress is developed on GitHub and we welcome bug reports, new pull requests and other contributions. Please take a look through our [open issues list](https://github.com/ClassicPress/ClassicPress/issues), or join [our Slack group](https://www.classicpress.net/join-slack/) and ask in the **#core** channel if you have any questions.
-
-Major changes must go through our [democratic process](https://www.classicpress.net/democracy/), starting with a petition.  Please see our [petitions site](https://petitions.classicpress.net/) for more information. We've made it easy to find existing feature requests and add your own.
+- <span style="font-size: 150%">[Codex](https://codex.classicpress.net/)</span><!--this should link to the new, not-yet-existing DOC for Code page-->
+- <span style="font-size: 150%">[Security Page](https://docs.classicpress.net/developing-with-classicpress/security-page/)</span><!--this will only work after renaming developing-classicpress to developing-with-classicpress-->
+- <span style="font-size: 150%">[Dev Recipes](https://docs.classicpress.net/dev-recipes/)</span><!--this will only work after actually creating the DEV Recipes-->
+- <span style="font-size: 150%">[Tools and Standards](https://docs.classicpress.net/tools-and-standards)<!--this will only work after actually creating the Tools and Standards Page-->
