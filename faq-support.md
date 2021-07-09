@@ -12,6 +12,21 @@ All current plugins and themes which work in WordPress 4.9.x, will work in Class
 
 There have also been a few occasions where a plugin update has broken compatibility with both WordPress 4.9.x and ClassicPress. Whatever the case may be, we recommend contacting the plugin developers and asking them to make their plugin compatible with WordPress 4.9.x (and therefore ClassicPress).
 
+### What Browsers does ClassicPress support?
+
+- Last 1 Android version.
+- Last 1 ChromeAndroid version.
+- Last 2 Chrome versions.
+- Last 2 Firefox versions.
+- Last 2 Safari versions.
+- Last 2 iOS versions. **(needs testing)**
+- Last 2 Edge versions.
+- Last 2 Opera versions.
+- Internet Explorer >= 11. **(needs testing)**
+- Browsers with > 1% usage based on [Can I Use browser usage table](https://caniuse.com/usage-table)
+
+For more information on supported browsers, please visit our [discussion](https://forums.classicpress.net/t/classicpress-browser-support/815?u=wadestriebel) in the forums.
+
 ### I think I found a bug – what do I do?
 
 Bugs can be reported on the [support forums](https://forums.classicpress.net/c/support) or, if you know how to write a bug report, via GitHub. If logging via GitHub, please make sure to follow the template instructions:
