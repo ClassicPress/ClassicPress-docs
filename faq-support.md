@@ -27,6 +27,11 @@ There have also been a few occasions where a plugin update has broken compatibil
 
 For more information on supported browsers, please visit our [discussion](https://forums.classicpress.net/t/classicpress-browser-support/815?u=wadestriebel) in the forums.
 
+### I get a Error 503 (or 404) on the new ClassicPress Security Menu Page!
+
+Please check [this forum thread](https://forums.classicpress.net/t/security-tab-causes-error-503/3270). Some Hosts are using security services that assume WordPress to be installed, and thus flag the new files needed for the Security Page to work.
+You should contact your host and ask to whitelist the `security.php` file.
+
 ### I think I found a bug – what do I do?
 
 Bugs can be reported on the [support forums](https://forums.classicpress.net/c/support) or, if you know how to write a bug report, via GitHub. If logging via GitHub, please make sure to follow the template instructions:
