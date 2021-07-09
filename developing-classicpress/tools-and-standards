@@ -1,0 +1,14 @@
+# Tools and Standards
+
+## Recommended Tools for Development
+
+- [PHPStorm](https://www.jetbrains.com/phpstorm/)
+- [SublimeText](https://www.sublimetext.com)
+- [WPCS](https://github.com/WordPress/WordPress-Coding-Standards)
+- [Plugin Boilerplate](https://github.com/TukuToi/better-wp-plugin-boilerplate)
+
+## Standards
+
+- ClassicPress follows the (WordPress) [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards) and [Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/).
+- ClassicPress uses SemVer, and expects Plugins and Themes coded for ClassicPress to follow [SemVer](https://semver.org/) as well.
+- ClassicPress will publish Changelogs following [these Standards](https://keepachangelog.com/en/1.0.0/)
