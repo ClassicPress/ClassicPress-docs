@@ -1,0 +1,28 @@
+# DEV Recipes
+
+## Best practice to detect ClassicPress via a plugin
+
+```php
+function is_classicpress() {
+    if ( function_exists( 'classicpress_version' ) ) {
+        return true;
+    } else {
+        return false;
+    }
+}
+```
+
+## Moving your security settings under Security section
+
+```php
+if ( function_exists( '\add_security_page' ) ) {
+	add_security_page(
+		'My Prodigious Plugin',
+		'My Menu Title',
+		'my-prodigious-plugin',
+		'my-output-function'
+	);
+} else {
+	// existing code
+}
+```
